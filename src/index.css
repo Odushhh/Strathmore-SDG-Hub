@@ -1,0 +1,42 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Poppins";
+    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("fonts/Georgia.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Questrial";
+    src: url("fonts/Questrial-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Chakra Petch";
+    src: url("fonts/ChakraPetch-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");

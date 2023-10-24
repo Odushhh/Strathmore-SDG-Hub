@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Strathmore SDG Hub</title>
+</head>
+
+<body>
+    <nav class="font-questrial flex flex-col border-b-4 text-center sm:flex-row sm:text-right sm:justify-between py-4 bg-white shadow sm:items-baseline w-full">
+        <div class="mb-2 sm:mb-0">
+
+            <div class="pl-96">
+                <a href="index.html"> <img src="https://www.un.org/sites/un2.un.org/files/2019/12/sdg_wheel_print_transparent.png" class="w-28"></a>
+            </div>
+
+            <div class="absolute top-14 right-60" dir="rtl">
+                <a href="#aboutUs " class="font-bold text-3xl text-right no-underline text-black transition duration-150 ease-in-out hover:text-gray-500 ps-12"> About Us </a>
+                <a href="#chart " class="font-bold text-3xl text-right no-underline text-black transition duration-150 ease-in-out hover:text-gray-500 ps-12"> Chart of SDGs </a>
+                <a href="#contact " class="font-bold text-3xl text-right no-underline text-black transition duration-150 ease-in-out hover:text-gray-500 ps-56"> Contact Us </a>
+            </div>
+
+
+            <div class="absolute top-14 right-20" dir="rtl">
+                <!--LinkedIn-->
+                <a href="https://www.linkedin.com/company/strathmore-sdg-student-hub/" class="transition duration-150 ease-in-out hover:bg-button-hover">
+                    <svg xmlns="http://www.w3.org/2000/svg " class="absolute right-20 w-5 h-5" fill="currentColor " viewBox="0 0 24 24 ">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z " />
+                    </svg>
+                </a>
+
+                <!--Instagram-->
+                <a href="https://www.instagram.com/sdgstudenthub_su/" class="transition duration-150 ease-in-out hover:bg-button-hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-10 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.48265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+
+                <!--Twitter-->
+                <a href="https://twitter.com/sdghub_su" class="transition duration-150 ease-in-out hover:bg-button-hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="bg-about-us" id="aboutUs">
+        <div class="relative overflow-hidden bg-cover bg-no-repeat" style="clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0 100%); background-image: url('https://www.techspot.com/images2/news/bigimage/2022/06/2022-06-01-image-18-j_1100.webp'); width: 100%; height: 1200px;">
+
+        </div>
+
+        <div dir="ltr" class="absolute font-questrial font-bold text-center" style="top: 330px; left: 450px;">
+            <p class="text-white text-center text-6xl"> The Strathmore University SDG Hub </p>
+            <br><br>
+            <p class="text-white text-center text-3xl" style="letter-spacing: 1px;">An SDSN Youth Initiative based in Strathmore University, Nairobi, Kenya.</p>
+            <p style="padding: 50px;"></p>
+
+            <div class="font-questrial" style="display: grid; grid-template-columns: repeat(3, 1fr); padding-left: 30px;">
+
+                <button type="button" class="text-black bg-button text-2xl transition duration-200ms ease-in-out hover:bg-button-hover">
+                    <a href="# ">Explore</a>
+                </button>
+
+                <button type="button" class="text-black bg-button text-2xl transition duration-200ms ease-in-out hover:bg-button-hover">
+                    <a href="# ">Learn More</a>
+                </button>
+
+                <button type="button" class="text-black bg-button text-2xl transition duration-200ms ease-in-out hover:bg-button-hover">
+                    <a href="# ">Sauti Yetu Magazine</a>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--'About Us' Section-->
+
+    <div class="font-questrial bg-about-us" style="clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0 100%)" ;>
+
+        <div class="px-96">
+            <br><br><br>
+            <h1 class="font-bold text-center text-6xl">About Us</h1>
+            <br><br><br><br>
+
+            <p class="text-2xl">
+                The SDG Students Program is an initiative of SDSN Youth, the global youth division of the UN Sustainable Development Solutions Network (SDSN). SDSN Youth’s mission is to empower young people globally to create sustainable solutions.
+                <br><br>Through the SDG Students Program, SDSN Youth aims to engage students in the global effort to achieve the 2030 Agenda and the Sustainable Development Goals (SDGs), as well as empowering them with the knowledge, skills, and pathways
+                to action to be effective agents of change today.
+            </p>
+
+            <br><br><br><br>
+            <h1 class="font-bold text-center text-4xl">Why Young People?</h1>
+            <br><br><br>
+
+            <p class="text-2xl">
+                They make up nearly HALF the world's population - the biggest generation we are yet to see - and are the most educated, charitable, and entrepreneurial amongst other age groups.
+                <br><br> We believe that Young People are the ideal agents to be at the forefront of the sustainable development movement: they are forward-thinking, creative, and come in large numbers.
+            </p>
+
+            <br><br><br><br>
+
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <img src="https://pbs.twimg.com/media/FYVvTNcWAAA4CKD?format=jpg&name=large" class="bg-contain" style="width: 44%;">
+            <img class="bg-contain" style="width: 44%;" src="https://media.licdn.com/dms/image/C4D22AQHL7ol29r4_4A/feedshare-shrink_2048_1536/0/1677222181786?e=1698883200&v=beta&t=MjPloGN6UlGXER6A6bVXx-LRMokmVUTfbWJ9sCfWlUo">
+        </div>
+
+        <div class="px-96">
+
+            <br><br><br><br><br>
+            <h1 class="font-bold text-center text-4xl">SDSN Youth Today</h1>
+            <br><br>
+
+            <p class="text-2xl">
+                SDSN Youth was launched in 2015 by Professor Sachs - at the 5th meeting of the SDSN Leadership Council in Paris. Over the past five years, we have expanded rapidly, with over 3000 program members worldwide.
+            </p>
+
+            <br><br>
+            <h1 class="font-bold text-center text-4xl">Theory of Change</h1>
+            <br><br>
+
+            <p class="text-2xl">
+                We ensure that students from all walks of life can: LEARN about the SDGs, ENGAGE with & develop a passion for the SDGs, and ACT on implementing these SDGs in the community.
+            </p>
+
+        </div>
+        <p style="padding: 230px;"></p>
+    </div>
+
+
+    <!--'Mission/Vision' Section-->
+
+    <section style="font-family: questrial;">
+        <div class="container0">
+
+            <div class="vision-box2">
+                <h2 style="font-size: 35px; text-align: center;"> <b>Vision</b> </h2>
+                <p style="font-size: 24px; text-align: center;">
+                    To transform universities into hubs of innovation for solutions to local problems.
+                </p>
+            </div>
+
+            <div class="vision-box">
+                <h2 style="font-size: 35px; text-align: center;"> <b>Vision</b> </h2>
+                <br>
+                <img src="https://cdn-icons-png.flaticon.com/128/3017/3017211.png" width="85%" style="background-size: auto; padding-left: 50px;">
+                <br>
+                <p style="font-size: 24px; text-align: center;">
+                    To transform universities into hubs of innovation for solutions to local problems.
+                </p>
+            </div>
+
+
+            <div class="mission-box2">
+                <h2 style="font-size: 35px; text-align: center;"> <b>Mission</b> </h2>
+                <p style="font-size: 22px;text-align: center;">
+                    Establish a local network of hubs where students are brought together to take action on SDGs.
+                </p>
+            </div>
+
+            <div class="mission-box">
+                <h2 style="font-size: 35px; text-align: center;"> <b>Mission</b> </h2>
+                <br>
+                <img src="https://cdn-icons-png.flaticon.com/128/4334/4334331.png" width="85%" style="background-size: auto; padding-left: 50px;">
+                <br>
+
+                <p style="font-size: 22px;text-align: center;">
+                    Establish a local network of hubs where students are brought together to take action on SDGs.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--'SDGs Chart' Section-->
+
+    <div class="font-questrial font-bold bg-chart" id="chart">
+        <p style="padding: 75px;"></p>
+
+        <section>
+            <!--<h1 class="text-6xl" style="text-align: center;">Explore the SDGs</h1>
+            <p- style="padding: 20px;"></p>-->
+
+            <div>
+                <img src="https://www.undp.org/sites/g/files/zskgke326/files/styles/banner_image_desktop/public/migration/tr/UNDP-TR-SDG-GRID-EN-3.png?h=62accbb7&itok=t8gleLQv" style="display: block; margin-left: 200px; width: 80%;" class="bg-cover">
+            </div>
+
+            <p style="padding: 80px;"></p>
+        </section>
+    </div>
+
+
+    <!--'SDG Activities' Section-->
+
+    <div class="font-questrial">
+        <p style="padding: 50px;"></p>
+        <h1 class="font-questrial font-bold text-6xl" style="text-align: center;">Recent Activities</h1>
+        <p style="padding: 50px;"></p>
+
+        <div>
+            <p class="text-4xl" style="text-align: center;">
+                Inaugural Climate Change Summit 2022
+                <br><br>
+            </p>
+
+            <div class="bg-blog">
+
+                <div style="display: flex; justify-content: center; padding-left: 200px; padding-right: 250px;">
+
+                    <p style="font-size: 22px; margin: 50px;" class="text-left bg-contain">
+                        Inaugural Climate Change Summit was held at Strathmore University in conjunction w/ the Environment & Sustainability Club, Strathmore Business School (SBS), and the Art Club.
+                        <br>It was an opportunity for the youth to interact and inspire each other to innovate sustainable solutions aimed at protecting our one and only Earth.
+                        <br><br><br>Speakers included; Eng. Millicent Alooh - HSC from Cancer Care Kenya, Tomas Hurdsone - Founder & CEO of Youth Greenspace Action & Network.
+                    </p>
+                    <img src="https://pbs.twimg.com/media/FYVvTNcWAAA4CKD?format=jpg&name=large" class="bg-contain" style="width: 50%; border-radius: 5px;">
+
+                </div>
+                <p style="padding: 40px;"></p>
+                <hr>
+                <p style="padding: 40px;"></p>
+                <div style="display: flex; justify-content: center; padding-left: 200px; padding-right: 250px;">
+                    <img src="https://media.licdn.com/dms/image/C4D22AQEIan7P5-v5LQ/feedshare-shrink_2048_1536/0/1677222179632?e=1698883200&v=beta&t=0R0NNOOH2klQBZUaUV-McCGM1bem3pyYyywI14ktYvQ" class="bg-auto" style="width: 55%; border-radius: 5px;">
+
+                    <p style="font-size: 22px; margin: 50px;" class="text-left bg-contain">
+                        One of the highlights of the Summit was watching the Journey to Justice Film from Konrad-Adenauer-Stiftung -<i> Rule of Law Program for Anglophone Sub-Saharan Africa -</i> which highlighted the journey to environmental justice
+                        in Kenya.
+                        <br><br> Furthermore, We were pleased to have Patrick Kiarie - Kenya Country Director for <i>'We Don't Have Time'</i>, and Esther Muiruri - Programs Officer for Disaster Risk Reduction, Climate Change Adaptation & Environment at
+                        Kenya Red Cross.
+                        <br><br>They were featured on the panel to discuss "Climate Governance - The Role of the Youth."
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <p style="padding: 100px;"></p>
+
+        <div>
+            <p class="text-4xl" style="text-align: center;">
+                SDGs & Me Campaign w/ Vijana Tupo Initiative - July 17th 2022
+                <br><br>
+            </p>
+
+            <div class="bg-blog">
+
+                <div style="display: flex; justify-content: center; padding-left: 200px; padding-right: 250px;">
+
+                    <p style="font-size: 22px; margin: 50px;" class="text-left bg-contain">
+                        Quite an intimate session where we shared our sentiments on the SDGs, youth's prospects on the SDGs with Vijana Tupo Initiative, and the role of technology plus youth with the AFRICA DIGITAL ACADEMY.
+                        <br><br>It was insightful to have conversations with the youth in various spaces of action.
+                    </p>
+                    <img src="https://pbs.twimg.com/media/FYVvREjWIAE7Ane?format=jpg&name=large" class="bg-contain" style="width: 50%; border-radius: 5px;">
+
+                </div>
+                <p style="padding: 40px;"></p>
+                <hr>
+                <p style="padding: 40px;"></p>
+                <div style="display: flex; justify-content: center; padding-left: 200px; padding-right: 250px;">
+                    <img class="bg-cover" src="https://pbs.twimg.com/media/FYVvR3mXgAAWkyC?format=jpg&name=large" style="width: 50%; border-radius: 5px;">
+
+                    <p style="font-size: 22px; margin: 50px;" class="text-left bg-contain">
+                        <br>We learned a lot and are proud of this campaign's continuous support and outcomes in the SDG space.
+                        <br><br>If you want to be a part of this campaign, feel free to reach out and learn more about how you can be an SDG champion in your community!
+                    </p>
+
+                </div>
+            </div>
+
+            <p style="padding: 120px;"></p>
+        </div>
+
+    </div>
+
+
+    <!--'Contact Us' Section-->
+    <div class="contact-us" id="contact">
+        <p style="padding: 50px;"></p>
+        <p class="font-questrial text-4xl font-bold" style="text-align: center; padding-left: 400px; padding-right: 400px;"> Get in Touch with Us</p>
+        <br>
+        <p class="font-questrial" style="font-size: 22px; text-align: center; padding-left: 475px; padding-right: 475px;">
+            Interested in joining us? Want to send feedback about our club/events? Have any suggestions? Let us Know.
+        </p>
+
+        <br><br>
+
+        <form action="#" class="font-questrial pl-96" dir="ltr" style="font-size: 22px;">
+            <div>
+                <label for="name" class="block text-xl font-bold text-black">Email</label>
+                <p style="padding: 5px;"></p>
+
+                <input aria-colspan="text-field" type="text" id="subject" style="padding: 7px; display: block; box-shadow: 2px 2px 1px black; width: 70%; border-radius: 4px;" class="shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    placeholder="name@google.com" required>
+            </div>
+
+            <p style="padding: 15px;"></p>
+
+            <div>
+                <label for="message-subject" class="block text-xl font-bold text-black">Subject</label>
+                <p style="padding: 5px;"></p>
+
+                <input aria-colspan="text-field" type="text" id="subject" style="padding: 7px; display: block; box-shadow: 2px 2px 1px black; width: 70%; border-radius: 4px;" class="shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    placeholder="Let us know how we can possibly assist you" required>
+            </div>
+
+            <p style="padding: 15px;"></p>
+
+            <div class="sm:col-span-2">
+                <label for="message" class="block text-xl font-bold text-gray-900 dark:text-gray-400">Your message</label>
+                <p style="padding: 5px;"></p>
+
+                <textarea id="message" style="padding: 7px; width: 70%; display: block; border-radius: 3px; box-shadow: 2px 2px 1px black;" rows="6" class="focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    placeholder="Leave a comment..." required></textarea>
+            </div>
+
+            <p style="padding: 25px;"></p>
+
+            <div class="submit-btn">
+                <button type="submit" class="py-3 px-5 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send Message</button>
+
+            </div>
+
+        </form>
+    </div>
+
+
+    <!--Footer-->
+
+    <footer style="background-color: black; color: white;">
+        <span class="text-center font-questrial">
+            Designed by Adrian Oduma.
+            <a class="socials" style="left: 1500px;" href="https://www.linkedin.com/in/adrian-oduma-4374a4252/">LinkedIn</a>
+            <a class="socials" style="left: 1600px;" href="https://github.com/Odushhh">GitHub</a>
+            <a class="socials" style="left: 1700px;" href="https://twitter.com/odushhh">Twitter</a>
+            <a class="socials" style="left: 1800px;" href="https://www.instagram.com/_odush/">Instagram</a>
+            
+
+    
+            
+        </span>
+    </footer>
+
+
+</body>
+
+</html>
